@@ -1,0 +1,11 @@
+pod:
+  containers:
+  - name: hello-world
+    image: alpine:latest
+    workingDir: /workspace
+    imagePullPolicy: IfNotPresent
+    command:
+    - sh 
+    - -c
+    - |
+      echo Hello World
