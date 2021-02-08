@@ -1,5 +1,0 @@
-rules:
-- path: ".werft/hello-world.yaml"
-  matchesAll:
-  - or: ["repo.ref ~= refs/heads/"]
-  - or: ["trigger !== deleted"]
