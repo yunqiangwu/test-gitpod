@@ -1,0 +1,7 @@
+
+tasks:
+  - init: echo abcd
+    command: >
+      echo abcd2
+      echo abcd3
+      
